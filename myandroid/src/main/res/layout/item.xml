@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <com.
+        android:id="@+id/iv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_icon"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="倪大红王阿萨德你此案三年次爱死你次哦虐死你带那随你"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/iv_icon"
+        android:layout_below="@id/tv_title"
+        android:layout_margin="9dp"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@id/iv_icon"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text=" 亚历山大堡航拍图 [保存到相册]【环球网无人机综合报道】据英国《每日邮报》6月14日报道，无人机在俄罗斯圣彼得堡(St Petersburg)附近拍摄到一座阴森的城堡——亚历山大堡(Fort Alexander)，18世纪时，这座城堡被用作黑死病医学研究基地。" />
+
+    <TextView
+        android:id="@+id/tv_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/iv_icon"
+        android:layout_alignParentRight="true"
+        android:text="跟帖"
+        android:textColor="#ce0000" />
+
+
+</RelativeLayout>
